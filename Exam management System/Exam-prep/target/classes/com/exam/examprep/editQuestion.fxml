@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exam.examprep.controller.editQuestionController">
+    <children>
+        <Button layoutX="183.0" layoutY="63.0" mnemonicParsing="false" text="Update" />
+        <Button layoutX="263.0" layoutY="63.0" mnemonicParsing="false" text="Delete" />
+        <Label layoutX="167.0" layoutY="27.0" text="Question Edit Page">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="472.0" layoutY="356.0" onMouseClicked="#goToSetQuestion" text="Go To  SetQuestion" textFill="#0814b5" underline="true" />
+    </children>
+</AnchorPane>

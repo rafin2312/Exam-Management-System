@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exam.examprep.controller.LoginForTeacherController">
+    <children>
+        <Label layoutX="178.0" layoutY="29.0" text="Welcome to Teacher Login Page" textFill="#c91a1a">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="teacherLogin" layoutX="187.0" layoutY="104.0" />
+        <Button layoutX="246.0" layoutY="228.0" mnemonicParsing="false" onAction="#enter" text="Enter" />
+        <Label layoutX="195.0" layoutY="79.0" text="Email" textFill="#1b0606" />
+        <Label layoutX="187.0" layoutY="143.0" text="Password" textFill="#1b0606" />
+        <PasswordField fx:id="teacherPassword" layoutX="187.0" layoutY="175.0" />
+        <Label layoutX="187.0" layoutY="274.0" text="Don't want Login?" textFill="#1b0606" />
+        <Label layoutX="286.0" layoutY="274.0" onMouseClicked="#goToLogin" text="Go to Student Login" textFill="#103ef5" underline="true" />
+    </children>
+</AnchorPane>
